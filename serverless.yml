@@ -12,7 +12,7 @@ plugins:
 functions:
   hello:
     handler: handler.lambda_handler
-    timeout: 30  # Set the timeout here
+    timeout: 50 # Set the timeout here
     events:
       - httpApi:
           path: /
