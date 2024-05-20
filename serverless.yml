@@ -11,7 +11,7 @@ plugins:
 
 functions:
   hello:
-    handler: handler.lambda_handler
+    handler: register-reregister.lambda_handler
     timeout: 50 # Set the timeout here
     events:
       - httpApi:
